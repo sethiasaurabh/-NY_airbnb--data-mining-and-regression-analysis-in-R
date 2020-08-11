@@ -600,8 +600,3 @@ MSE.3 <- mean(model.4$residuals^2)
 
 vif3 <- lm(price ~., data = corrr.3); summary(corrr.3)
 vif(vif3)
-
-
-
-
-s
