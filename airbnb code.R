@@ -485,7 +485,7 @@ vif1 <- lm(price ~., data = corrr.1); summary(corrr.1)
 vif(vif1)
 
 
-################### Remove outliers and applying selection method;##################
+################### Remove outliers and applying selection method;###################
 
 Q <- quantile(corrr.1$price, probs=c(.25, .75), na.rm = T)
 iqr <- IQR(corrr.1$price, na.rm = T)
