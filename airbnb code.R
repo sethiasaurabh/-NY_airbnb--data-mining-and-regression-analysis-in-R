@@ -188,7 +188,7 @@ groupwise_measures %>%
 ############# Generating linear model;
 
 
-####### changing data types to integers:
+####### changing more data types to integers:
 
 # to keep the actual date I'm going to make the data into number
 
